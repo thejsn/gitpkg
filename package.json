@@ -15,6 +15,7 @@
     "test-coverage": "yarn run jest --silent -- --coverage",
     "test": "jest"
   },
+  "private": false,
   "author": {
     "name": "Ramiro Silveyra d'Avila",
     "twitter": "ramasilveyra"
