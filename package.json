@@ -1,5 +1,5 @@
 {
-  "name": "gitpkg",
+  "name": "@bazooka_se/gitpkg",
   "version": "1.0.0-beta.1",
   "description": "Publish packages as git tags",
   "main": "build/index.js",
@@ -28,7 +28,10 @@
     "bin",
     "build"
   ],
-  "repository": "git@github.com:ramasilveyra/gitpkg.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thejsn/gitpkg"
+  },
   "keywords": [
     "git",
     "packages",
